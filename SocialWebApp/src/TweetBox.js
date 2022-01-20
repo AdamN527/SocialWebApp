@@ -26,7 +26,6 @@ function TweetBox() {
         <div className='tweetBox'>
             <form>
                 <div className='tweetBox__input'>
-                    <Avatar src='https://media-exp1.licdn.com/dms/image/C5635AQGBLbEKkYFlpA/profile-framedphoto-shrink_200_200/0/1619199458586?e=1642744800&v=beta&t=XevesIaIoz8fJEB2m1wnvADqHlwfwXFY_0jvW1DLVL4'></Avatar>
                     <input 
                     onChange={e=> setTweetMessage(e.target.value)}
                     value={tweetMessage} 
